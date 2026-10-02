@@ -37,8 +37,8 @@ jobs:
           push: true
           platforms: linux/amd64, linux/arm64
           tags: |
-            ghcr.io/sommersdevxyz/Spectra-DACH:latest
-            ghcr.io/sommersdevxyz/Spectra-DACH:${{ env.RELEASE_TAG }}
+            ghcr.io/sommersdevxyz/spectra-dach:latest
+            ghcr.io/sommersdevxyz/spectra-dach:${{ env.RELEASE_TAG }}
 
 
             
