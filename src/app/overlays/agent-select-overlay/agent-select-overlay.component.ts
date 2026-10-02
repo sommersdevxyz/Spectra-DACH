@@ -1,19 +1,19 @@
 import {
-  AfterViewInit,
+  type AfterViewInit,
   ChangeDetectionStrategy,
   Component,
   computed,
-  ElementRef,
-  NgZone,
-  OnDestroy,
-  QueryList,
-  ViewChildren,
+  type ElementRef,
   effect,
   inject,
+  NgZone,
+  type OnDestroy,
+  type QueryList,
   signal,
+  ViewChildren,
 } from "@angular/core";
-import { DataModelService } from "../../services/dataModel.service";
 import { AgentSelectPlayerInfoComponent } from "../../components/agent-select/player-info/player-info.component";
+import { DataModelService } from "../../services/dataModel.service";
 
 @Component({
   selector: "app-agent-select-overlay",

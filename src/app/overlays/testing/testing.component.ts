@@ -90,7 +90,7 @@ export class TestingComponent implements OnInit {
           enabledPlayers: ["MrFoxy#DEBUG", "TTV RedStone201#DEBUG"],
           removeTricodes: false,
           identifier: "SPPCEDVACI",
-          secret: "f5bE6fYn", 
+          secret: "f5bE6fYn",
         },
         nameOverrides: { overrides: [] },
         roundWinBox: {
